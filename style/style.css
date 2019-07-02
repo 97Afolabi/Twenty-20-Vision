@@ -1,0 +1,262 @@
+body {
+    background-color: #C6E8F3;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    color: #0a0a0a;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+#main a {
+    font-weight: bold;
+}
+
+#header {
+    height: 2.5em;
+    width: 100%;
+    background-color: #0256A8;
+    margin: 0px;
+}
+
+#title {
+    color: #ffffff;
+    text-shadow: 2px 2px #C6E8F3;
+    margin-left: 5px;
+    height: 100%;
+}
+
+.title {
+    background-color: #0256A8;
+    color: #ffffff;
+    font-weight: bold;
+    border: 4px solid #ffffff;
+    padding: 3px;
+    margin: 3px;
+}
+
+.title a {
+    background-color: #ffffff;
+    color: #0256A8;
+    display: block;
+    float: right;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin: 4px 0px;
+    padding: 0.5em;
+}
+
+.navbar a {
+    background-color: #0256A8;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 3px;
+    padding: 2px 3px;
+}
+
+#main {
+    margin: 4px 0px;
+    padding: 0.5em;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+[type=text], [type=number], [type=password], [type=email], [type=file], textarea, select {
+    border: 1px solid #0256A8;
+    margin: 4px;
+}
+
+[type=submit] {
+    background-color: #0256A8;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.grid {
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin: 4px;
+    padding: 2px;
+    word-wrap: wrap;
+}
+
+div.grid a {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0256A8;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 3px;
+    margin: 4px;
+}
+
+div.grid a:hover {
+    background-color: #ffffff;
+    border: 3px solid #0256A8;
+    color: #0256A8;
+}
+
+div.grid img {
+    display: inline;
+    width: 100px;
+    height: 120px;
+}
+
+#stock {
+    width: 100%;
+    height: 100%;
+}
+
+/*Format text display*/
+div.text {
+    display: block;
+    margin: 5px;
+    padding: 4px;
+    border-bottom: 5px solid #ffffff;
+    border-left: 5px solid #ffffff;
+    word-wrap: wrap;
+}
+
+div.text a {
+    color: #0256A8;
+}
+
+div h4 {
+    background-color: #0256A8;
+    color: #ffffff;
+}
+table th {
+    padding: auto 5px;
+    background-color: #0256A8;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table {
+    padding: 0px;
+    border-collapse: collapse;
+    width: auto;
+}
+
+/*Center align quantities*/
+td.center {
+    text-align: center;
+}
+
+//
+tr {
+    line-height: 20px;
+    border-bottom: 1px dashed #0256A8;
+}
+//the following should give alternating colours to the tables
+//it can be specified using (even) or (odd) W3Schools
+tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+
+//For links to Pictures, Update, and Edit on stock pages
+table a {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #0256A8;
+    color: #ffffff;
+}
+
+#footer {
+    position: bottom;
+    width: 100%;
+    height: 60px;
+    background-color: #0256A8;
+    text-align: center;
+}
+
+#footer a {
+    color: #0256A8;
+    background-color: #ffffff;
+}
+
+#footer span {
+    margin-top: 5px;
+    vertical-align: center;
+    color: #0a0a0a;
+    background-color: #ffffff;
+}
+
+
+li a {
+    display: block;
+    background-color: #ffffff;
+    color: #0256A8;
+    border-right: 4px solid #0256A8;
+    border-bottom: 2px solid #0256A8;
+    border-left: 1px solid #0256A8;
+    margin-bottom: 3px;
+    padding: 2px;
+}
+
+li a:hover {
+    background-color: #0256A8;
+    color: #ffffff;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+}
+
+div .howto {
+    font-style: italic;
+    color: #efefef;
+}
+
+/*
+div #table {
+    width: 100%;
+    //clear: both;
+}
+*/
+
+/*Income and expenditure 'table'*/
+div.incex {
+    width: 100%;
+    border-bottom: 1px dashed #0256A8;
+    word-wrap: wrap;
+    float: left;
+    display: inline;
+}
+
+/*Income and expenditure link*/
+div.incex a {
+    text-decoration: none;
+    font-style: normal;
+    color: #000000;
+    display: inline;
+}
+
+/*Income and expenditure Branch column*/
+div.incex span.Branch {
+    width: 17%;
+    text-align: justify;
+    border-right: 1px solid #0256A8;
+    border-left: 1px solid #0256A8;
+    float: left;
+}
+
+/*Income and expenditure Amount column*/
+div.incex span.Amount {
+    width: 25%;
+    float: right;
+    border-right: 1px solid #0256A8;
+    border-left: 1px solid #0256A8;
+    padding: 2px auto;
+}
